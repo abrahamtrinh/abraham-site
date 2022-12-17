@@ -20,6 +20,7 @@ export default function Experience() {
               />
             </a>
             <h2 className="text-xl lg:text-2xl font-bold">
+              <br/>
               Software Engineer I
             </h2>
             <p className="text-sm lg:text-lg font-normal">
@@ -40,6 +41,7 @@ export default function Experience() {
               Summer Engineering Intern
             </h2>
             <p className="text-sm lg:text-lg font-normal">
+              <br/>
               Developed <strong>Azure DevOps</strong> pipelines to implement <strong>CI/CD</strong> practices,
               wrote <strong>Powershell</strong> scripts to queue automated tests with custom Test Manager, and
               wrote unit tests in <strong>C#</strong> to test new features in Xamarin.Forms application
@@ -60,13 +62,14 @@ export default function Experience() {
               Vice President
             </h2>
             <p className="text-sm lg:text-lg font-normal">
-            Met with core executive members to discuss club meetings 
-            and develop coding workshops for 800+ club members.
-            <br/>
-            <br/> 
-            These workshops' target was to give brief introductions to
-            various programming languages, frameworks, and more. 
-            (Intro to: <strong>iOS Development</strong>, <strong>React</strong>, <strong>Node.js</strong>, <strong>Git</strong>, <strong>Linux</strong>, and <strong>Python</strong>)</p>
+              <br/>
+              Met with core executive members to discuss club meetings 
+              and develop coding workshops for 800+ club members.
+              <br/>
+              <br/> 
+              These workshops' target was to give brief introductions to
+              various programming languages, frameworks, and more. 
+              (Intro to: <strong>iOS Development</strong>, <strong>React</strong>, <strong>Node.js</strong>, <strong>Git</strong>, <strong>Linux</strong>, and <strong>Python</strong>)</p>
           </div>
 
 
@@ -84,6 +87,7 @@ export default function Experience() {
               Computer Science Course Technical Assistant
             </h2>
             <p className="text-sm lg:text-lg font-normal">
+              <br/>
               Coordinated with Arizona State University instructors to 
               develop an interactive online course for an intro CS course teaching <strong>Java</strong>.
               Developing in-depth video content to aid over 1,600 students' learning in specialized topics.
@@ -99,11 +103,12 @@ export default function Experience() {
                 href="https://engineering.asu.edu/"
               />
             </a>
-            
+
             <h2 className="text-xl lg:text-2xl font-bold">
               Undergraduate Teaching Assistant
             </h2>
             <p className="text-sm lg:text-lg font-normal">
+              <br/>
               Tailored individualized learning strategies for learning <strong>C/C++</strong> to over 250 students and
               facilitated office hours and monitored discussions to answer student questions.
             </p>

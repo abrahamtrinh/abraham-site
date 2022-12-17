@@ -1,13 +1,11 @@
 const people = [
   {
     name: 'Abraham',
-    title: 'Software Engineer',
+    title: 'Software Engineer.',
     email: 'aqtrinh@asu.edu',
     image:
       '/media/avatar.png',
-  },
-  
-  // More people...
+  }
 ]
 
 export default function Header() {
@@ -20,14 +18,12 @@ export default function Header() {
 
         <div className="mx-auto">
           <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">
-            Software Engineer.
+            {people[0].title}
           </h2>
           <p className="mt-4 text-gray-300 max-w-sm">
             Dedicated computer science graduate from Arizona State University with superb communication and organization skills, 
             experienced with mobile app development and DevOps
           </p>
-
-
         </div>
       </div>
     </div>
