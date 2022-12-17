@@ -4,12 +4,9 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Spacer from './Spacer'
 
 const navigation = [
-
-
-  { name: 'Home', href: '#', current: true },
   { name: 'About', href: '#About', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Resume', href: '/resume.pdf', current: true },
+  { name: 'Experience', href: '#Experience', current: false },
+  { name: 'Resume', href: '/resume.pdf', current: false },
 ]
 
 function classNames(...classes) {
@@ -18,7 +15,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="header" className="bg-myPurple sti">
+    <Disclosure as="header" className="bg-myPurple-900 sti">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -37,9 +34,9 @@ export default function Navbar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   
-                  <h2 className="text-3xl font-bold tracking-tight font-semibold text-gray-300 sm:text-4xl">
+                  <a href="#" className="text-3xl font-bold tracking-tight font-semibold text-gray-300 sm:text-4xl hover:text-white">
                     Abraham Trinh
-                  </h2>
+                  </a>
                   {/* ADD AN ICON HERE
                   <img
                     className="block h-8 w-auto lg:hidden"
@@ -61,7 +58,7 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-myPurple-500 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
@@ -83,7 +80,7 @@ export default function Navbar() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-myPurple-500 hover:text-white',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}

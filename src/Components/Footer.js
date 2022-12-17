@@ -19,10 +19,10 @@ function classNames(...classes) {
 export default function Footer() {
   return (
     <div class="mx-auto">
-      <footer class="p-4 bg-myPurple shadow items-center justify-end pb-10 min-h-fit md:px-6 md:py-8">
+      <footer class="p-4 bg-myPurple-900 shadow items-center justify-end pb-10 min-h-fit md:px-6 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
-          <a href="#" target="_blank" class="flex items-center mb-4 sm:mb-0">
-            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://aqtrinh.me" target="_blank" class="hover:underline">Abraham Trinh</a>
+          <a href="#" class="flex items-center mb-4 sm:mb-0">
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">Abraham Trinh</a>
             </span>  
           </a>
           

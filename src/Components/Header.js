@@ -1,12 +1,10 @@
-import Spacer from './Spacer'
-
 const people = [
   {
     name: 'Abraham',
     title: 'Software Engineer',
     email: 'aqtrinh@asu.edu',
     image:
-      'https://aqtrinh.me/skate.png',
+      '/media/avatar.png',
   },
   
   // More people...

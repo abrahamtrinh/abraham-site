@@ -1,6 +1,6 @@
 import './index.css';
 import Navbar from './Components/Navbar'
-import Example from './Components/Example'
+import Example from './Components/Experience'
 import Header from './Components/Header'
 import Spacer from './Components/Spacer'
 import Footer from './Components/Footer'
@@ -12,6 +12,7 @@ function App() {
       <Navbar />
       <Header/>
       <Description/>
+      <Example/>
       <Footer/>
     </div>
   );

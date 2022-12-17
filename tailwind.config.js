@@ -21,7 +21,13 @@ module.exports = {
       cyan: colors.cyan,
       blue: colors.blue,
       pink: colors.pink,
-      'myPurple': '#110b26',
+      purple: colors.purple,
+      'myPurple': {
+        500:'#321446',
+        900:'#110b26',
+      },
+      'mdtBlue': '#1c4988',
+      'asuMaroon': '#8d1d40'
     },
     fontFamily: {
       sans: ['JetBrains Mono', 'sans-serif'],
@@ -36,7 +42,7 @@ module.exports = {
         '4xl': '2rem',
       },
       backgroundImage: {
-        'macOS': "url('https://aqtrinh.me/macOS.jpg')",
+        'macOS': "url('./../public/media/macOS.jpg')",
         'monterey': "url('https://images.macrumors.com/t/CPDEomnwSW1eVzYLmDBMh6h0BR0=/1600x0/article-new/2021/11/macOS-Monterey-missing-wallpaper.jpg')",
       }
     }
