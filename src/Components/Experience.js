@@ -34,7 +34,8 @@ const experiences = [
   { 
     title: 'Computer Science Course Technical Assistant',
     dates: 'March 2021 to December 2022',
-    description: "Coordinated with Arizona State University instructors to develop an interactive online course for an intro CS course teaching Java. Developing in-depth video content to aid over 1,600 students' learning in specialized topics.",
+    description: "Coordinated with Arizona State University instructors to develop an interactive online course for an intro CS course teaching Java.\n\n" +
+    "Developed in-depth video content to aid over 1,600 students' learning in specialized topics.",
     image: {
       src: '/media/Edplus.png',
       alt: 'Edplus at Arizona State University Logo',
@@ -44,7 +45,8 @@ const experiences = [
   { 
     title: 'Undergraduate Teaching Assistant',
     dates: 'January 2021 to December 2021',
-    description: 'Tailored individualized learning strategies for learning C/C++ to over 250 students and facilitated office hours and monitored discussions to answer student questions.',
+    description: "Tailored individualized learning strategies for learning C/C++ to over 250 students.\n\n" +
+    "Facilitated office hours and monitored discussions to answer student questions.",
     image: {
       src: '/media/fulton.png',
       alt: 'Ira A. Fulton School of Engineering at Arizona State University Logo',
