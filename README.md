@@ -6,7 +6,7 @@ The old site used pure HTML and CSS and was rather simple and boring. \
 I followed a few tutorials to understand the React and just jumped right into using TailwindCSS. \
 Over the course of a few days I was able to produce this website! \
 
-\See the current version at Open [http://aqtrinh.me](http://aqtrinh.me)
+See the current version at [aqtrinh.me](http://aqtrinh.me)
 
 ## Available Scripts
 
