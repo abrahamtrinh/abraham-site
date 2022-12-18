@@ -18,7 +18,7 @@ export default function Description() {
           in the at work to write code that will benefit society!
           <br/>
           <br/> 
-          Please contact me at: <a href="mailto:aqtrinh@asu.edu" class="hover:underline">aqtrinh@asu.edu</a>
+          Please contact me at: <a href="mailto:trinh.abraham@gmail.com" class="hover:underline">trinh.abraham@gmail.com</a>
 
           <br/>
           <br/> 

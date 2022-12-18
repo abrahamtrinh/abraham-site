@@ -2,7 +2,7 @@ const people = [
   {
     name: 'Abraham',
     title: 'Software Engineer.',
-    email: 'aqtrinh@asu.edu',
+    email: 'trinh.abraham@gmail.com',
     image:
       '/media/avatar.png',
   }
