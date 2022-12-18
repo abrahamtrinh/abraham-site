@@ -6,7 +6,6 @@ import Footer from './Components/Footer'
 import Description from './Components/Description'
 import Projects from './Components/Projects'
 
-
 function App() {
   return (
     <div className>

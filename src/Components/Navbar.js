@@ -1,5 +1,6 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const navigation = [
   { name: 'About', href: '#About', current: false, target: "" },
@@ -9,6 +10,7 @@ const navigation = [
   { name: 'LinkedIn', href: 'https://www.linkedin.com/in/abraham-trinh/', current: false, target: "_blank" },
   { name: 'Github', href: 'https://github.com/abrahamtrinh', current: false, target: "_blank" },
 ]
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -35,7 +37,10 @@ export default function Navbar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   
-                  <a href="#" className="text-3xl font-bold tracking-tight font-semibold text-gray-300 sm:text-4xl hover:text-white">
+                  <a className="text-3xl font-bold tracking-tight font-semibold text-gray-300 sm:text-4xl hover:text-white"
+                    onClick={() => {
+                      scroll.scrollToTop()
+                    }}>
                     Abraham Trinh
                   </a>
 

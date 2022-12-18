@@ -1,3 +1,5 @@
+import { animateScroll as scroll } from "react-scroll";
+
 const experiences = [
   { 
     id: 'Capstone',
@@ -34,8 +36,8 @@ const experiences = [
     description: "Over the course of a few days, I created this portfolio website from scratch using React, JavaScript, and Tailwind CSS.\n\n" +
     "The purpose of this project was to recreate my old portfolio website whilst learning more modern technologies.\n\n" +
     "The old site used pure HTML and CSS and was rather simple and boring.",
-    href:'#',
-    target:"",
+    href:'https://github.com/abrahamtrinh/abraham-site',
+    target:'_blank',
     image: {
       src: '',
       alt: '',
@@ -50,7 +52,7 @@ function NewlineText(props) {
 
 export default function Projects() {
   return (
-    <div id="Projects" className="bg-gray-100">
+    <div id="Projects" name="Projects" className="bg-gray-100">
       <div className="mx-auto grid max-w-xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-5xl lg:px-16">
         <p className="px-10 leading-tight max-w-5xl mx-auto text-black text-3xl md:px-20 md:text-5xl tracking-tight sm:text-4xl">
           <strong>Projects</strong>
