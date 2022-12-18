@@ -12,7 +12,7 @@ export default function Description() {
           <br/>
          
           After a wonderful internship and upon graduation, 
-          returned to Medtronic to begin my journey as a Software Engineer.
+          I returned to Medtronic to begin my journey as a Software Engineer.
           I am a person who is passionate about computer science and 
           I hope to utilize the skills that I learned in school and 
           in the at work to write code that will benefit society!

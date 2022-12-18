@@ -2,9 +2,11 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'About', href: '#About', current: false },
-  { name: 'Experience', href: '#Experience', current: false },
-  { name: 'Resume', href: '/resume.pdf', current: false },
+  { name: 'About', href: '#About', current: false, target: "" },
+  { name: 'Experience', href: '#Experience', current: false, target: "" },
+  { name: 'Resume', href: '/resume.pdf', current: false, target: "_blank" },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/abraham-trinh/', current: false, target: "_blank" },
+  { name: 'Github', href: 'https://github.com/abrahamtrinh', current: false, target: "_blank" },
 ]
 
 function classNames(...classes) {
@@ -47,6 +49,7 @@ export default function Navbar() {
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-myPurple-500 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
+                        target={item.target}
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
