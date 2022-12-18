@@ -4,6 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'About', href: '#About', current: false, target: "" },
   { name: 'Experience', href: '#Experience', current: false, target: "" },
+  { name: 'Projects', href: '#Projects', current: false, target: "" },
   { name: 'Resume', href: '/resume.pdf', current: false, target: "_blank" },
   { name: 'LinkedIn', href: 'https://www.linkedin.com/in/abraham-trinh/', current: false, target: "_blank" },
   { name: 'Github', href: 'https://github.com/abrahamtrinh', current: false, target: "_blank" },

@@ -6,7 +6,7 @@ export default function Description() {
           <br/>
           <br/>
           <strong>
-          Hello, hello. 👋 My name is Abraham, I am a Software Engineer 🧑🏻‍💻 at <z className="text-mdtBlue">Medtronic</z> and an <z className="text-asuMaroon">Arizona State University</z>🔱 Alumni!
+          Hello, hello. 👋 My name is Abraham, I am a Software Engineer 🧑🏻‍💻 at <a href="https://www.medtronic.com/" className="text-mdtBlue hover:underline" target="_blank">Medtronic</a> and an <a href="https://www.asu.edu" className="text-asuMaroon hover:underline" target="_blank">Arizona State University 🔱</a> Alumni!
           </strong>
           <br/>
           <br/>
@@ -16,6 +16,10 @@ export default function Description() {
           I am a person who is passionate about computer science and 
           I hope to utilize the skills that I learned in school and 
           in the at work to write code that will benefit society!
+          <br/>
+          <br/> 
+          Please contact me at: <a href="mailto:aqtrinh@asu.edu" class="hover:underline">aqtrinh@asu.edu</a>
+
           <br/>
           <br/> 
         </p>
