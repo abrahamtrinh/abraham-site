@@ -7,6 +7,7 @@ const experiences = [
     "Researched and implemented the game’s procedural generation and level design using C#.\n\n" +
     "Algorithms researched: cellular automata, marching squares, and edge detection.",
     href:'/projects/capstone.pdf',
+    target:'_blank',
     image: {
       src: '/media/game.png',
       alt: '',
@@ -20,6 +21,7 @@ const experiences = [
     "The Boba Tea shops and their information are found based on the user's current location.\n\n" +
     "Users are able to add their favorite stores to an easily accessible list and they are able to save their favorite drinks.",
     href:'https://youtu.be/z6bzwNR_fOY',
+    target:'_blank',
     image: {
       src: '/media/bobabuddy.png',
       alt: 'Boba Buddy Logo',
@@ -32,7 +34,8 @@ const experiences = [
     description: "Over the course of a few days, I created this portfolio website from scratch using React, JavaScript, and Tailwind CSS.\n\n" +
     "The purpose of this project was to recreate my old portfolio website whilst learning more modern technologies.\n\n" +
     "The old site used pure HTML and CSS and was rather simple and boring.",
-    href:'',
+    href:'#',
+    target:"",
     image: {
       src: '',
       alt: '',
@@ -55,14 +58,14 @@ export default function Projects() {
         <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-24">
           {experiences.map((item) => (
             <div id={item.id} className="rounded-lg bg-white flex flex-col justify-start border-0 p-5 shadow-lg">
-              <a href={item.href} target="_blank">
+              <a href={item.href} target={item.target}>
                 <img
                   src={item.image.src}
                   alt={item.image.alt}
                   className="rounded-lg bg-gray-100"
                 />
               </a>
-              <a href={item.href} className="text-xl lg:text-2xl font-bold text-left" target="_blank">
+              <a href={item.href} className="text-xl lg:text-2xl font-bold text-left" target={item.target}>
                 {item.title}
               </a>
               <p className="text-sm lg:text-lg font-normal text-left">
