@@ -92,7 +92,7 @@ export default function Experience() {
           <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-24">
               {experiences.map((item) => (
                 <div 
-                className="rounded-lg bg-white flex flex-col justify-start border-0 p-5 shadow-lg cursor-pointer" 
+                className="rounded-lg bg-white flex flex-col justify-start border-0 p-5 shadow-lg cursor-pointer hover:scale-105" 
                 onClick={
                   () => setCurrentModal(item.id)}
                 >
