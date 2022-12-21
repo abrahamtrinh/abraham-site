@@ -18,7 +18,7 @@ const experiences = [
     title: 'Summer Engineering Intern',
     company: 'Medtronic',
     dates: 'June 2022 to August 2022',
-    description: "Developed Azure DevOps pipelines to implement CI/CD practices, wrote Powershell scripts to queue automated tests with custom Test Manager, and wrote unit tests in C# to test new features in Xamarin.Forms application",
+    description: "Developed Azure DevOps pipelines to implement CI/CD practices, wrote Powershell scripts to queue automated tests with custom Test Manager, and wrote unit tests in C# to test new features in Xamarin.Forms application.",
     image: {
       src: '/media/medtronic.jpg',
       alt: 'Medtronic Logo',
@@ -32,7 +32,7 @@ const experiences = [
     dates: 'January 2022 to December 2022',
     description: "Met with core executive members to discuss club meetings and develop coding workshops for 800+ club members. \n\n" +
     "These workshops' target was to give brief introductions to various programming languages, frameworks, and more. \n\n" +
-    "Workshops included, Intro to: iOS Development, React, Node.js, Git, Linux, and Python",
+    "Workshops included, Intro to: iOS Development, React, Node.js, Git, Linux, and Python.",
     image: {
       src: '/media/gdsc.jpg',
       alt: 'Google Developer Student Club Logo',
@@ -92,7 +92,7 @@ export default function Experience() {
           <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-24">
               {experiences.map((item) => (
                 <div 
-                className="rounded-lg bg-white flex flex-col justify-start border-0 p-5 shadow-lg" 
+                className="rounded-lg bg-white flex flex-col justify-start border-0 p-5 shadow-lg cursor-pointer" 
                 onClick={
                   () => setCurrentModal(item.id)}
                 >

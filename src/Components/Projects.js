@@ -70,7 +70,7 @@ export default function Projects() {
           <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-24">
               {projects.map((item) => (
                 <div 
-                className="rounded-lg bg-white flex flex-col justify-start border-0 p-5 shadow-lg" 
+                className="rounded-lg bg-white flex flex-col justify-start border-0 p-5 shadow-lg cursor-pointer" 
                 onClick={
                   () => setCurrentModal(item.id)}
                 >
