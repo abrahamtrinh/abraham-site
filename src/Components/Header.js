@@ -4,7 +4,7 @@ const people = [
     title: 'Software Engineer.',
     email: 'trinh.abraham@gmail.com',
     image:
-      '/media/avatar.avif',
+      '/media/avatar.png',
   }
 ]
 

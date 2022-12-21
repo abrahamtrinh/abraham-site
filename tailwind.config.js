@@ -42,7 +42,7 @@ module.exports = {
         '4xl': '2rem',
       },
       backgroundImage: {
-        'macOS': "url('./../public/media/macOS.avif')",
+        'macOS': "url('./../public/media/macOS.jpg')",
         'monterey': "url('https://images.macrumors.com/t/CPDEomnwSW1eVzYLmDBMh6h0BR0=/1600x0/article-new/2021/11/macOS-Monterey-missing-wallpaper.jpg')",
       }
     }
