@@ -1,11 +1,14 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { scroller as scroller, animateScroll as scroll } from "react-scroll";
 
-const navigation = [
+const navigationIn = [
   { name: 'About', href: '#About', current: false, target: "" },
   { name: 'Experience', href: '#Experience', current: false, target: "" },
   { name: 'Projects', href: '#Projects', current: false, target: "" },
+]
+
+const navigationOut = [
   { name: 'Resume', href: '/resume.pdf', current: false, target: "_blank" },
   { name: 'LinkedIn', href: 'https://www.linkedin.com/in/abraham-trinh/', current: false, target: "_blank" },
   { name: 'Github', href: 'https://github.com/abrahamtrinh', current: false, target: "_blank" },
@@ -47,7 +50,25 @@ export default function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
+                    {navigationIn.map((item) => (
+                      <a
+                        key={item.name}
+                        onClick={() => {
+                          scroller.scrollTo(item.name, {
+                            smooth: true,
+                        })}}
+                        className={classNames(
+                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-myPurple-500 hover:text-white',
+                          'px-3 py-2 rounded-md text-sm font-medium'
+                        )}
+                        target={item.target}
+                        aria-current={item.current ? 'page' : undefined}
+                      >
+                        {item.name}
+                      </a>
+                    ))}
+                    
+                    {navigationOut.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
@@ -61,6 +82,7 @@ export default function Navbar() {
                         {item.name}
                       </a>
                     ))}
+
                   </div>
                 </div>
               </div>
@@ -69,7 +91,26 @@ export default function Navbar() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
-              {navigation.map((item) => (
+              {navigationIn.map((item) => (
+                <Disclosure.Button
+                  key={item.name}
+                  as="a"
+                  onClick={() => {
+                    scroller.scrollTo(item.name, {
+                      smooth: true,
+                      offset: -300,
+                  })}}
+                  className={classNames(
+                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-myPurple-500 hover:text-white',
+                    'block px-3 py-2 rounded-md text-base font-medium'
+                  )}
+                  aria-current={item.current ? 'page' : undefined}
+                >
+                  {item.name}
+                </Disclosure.Button>
+              ))}
+
+              {navigationOut.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"

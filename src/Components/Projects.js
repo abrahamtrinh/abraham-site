@@ -11,7 +11,7 @@ const experiences = [
     href:'/projects/capstone.pdf',
     target:'_blank',
     image: {
-      src: '/media/game.png',
+      src: '/media/game.avif',
       alt: '',
     }
   },
@@ -25,7 +25,7 @@ const experiences = [
     href:'https://youtu.be/z6bzwNR_fOY',
     target:'_blank',
     image: {
-      src: '/media/bobabuddy.png',
+      src: '/media/bobabuddy.avif',
       alt: 'Boba Buddy Logo',
     }
   },
