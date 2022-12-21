@@ -1,9 +1,6 @@
-import { Element } from "react-scroll";
-
-
 export default function Description() {
   return (
-    <Element id="About" name="About" className="shadow bg-gray-100">
+    <div id="About" name="About" className="shadow bg-gray-100">
       <div className="flex flex-col py-10 md:py-20 text-3xl md:text-4xl outline-1">
         <p className="px-10 leading-tight max-w-5xl mx-auto text-black text-xl md:px-20 md:text-3xl tracking-tight sm:text-2xl">
           <br/>
@@ -21,13 +18,13 @@ export default function Description() {
           in the at work to write code that will benefit society!
           <br/>
           <br/> 
-          Please contact me at: <a href="mailto:trinh.abraham@gmail.com" class="hover:underline">trinh.abraham@gmail.com</a>
+          Please contact me at: <a href="mailto:me@abrahamtrinh.com" class="hover:underline">me@abrahamtrinh.com</a>
 
           <br/>
           <br/> 
         </p>
       </div>
-    </Element>
+    </div>
     
   )
 }
