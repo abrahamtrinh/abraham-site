@@ -11,7 +11,7 @@ const projects = [
     href:'/projects/capstone.pdf',
     target:'_blank',
     image: {
-      src: '/media/game.png',
+      src: '/media/game.jpg',
       alt: '',
     }
   },
@@ -25,7 +25,7 @@ const projects = [
     href:'https://youtu.be/z6bzwNR_fOY',
     target:'_blank',
     image: {
-      src: '/media/bobabuddy.png',
+      src: '/media/bobabuddy.jpg',
       alt: 'Boba Buddy Logo',
     }
   },

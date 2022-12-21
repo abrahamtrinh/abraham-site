@@ -8,7 +8,7 @@ const experiences = [
     dates: 'Starting January 2023',
     description: '',
     image: {
-      src: '/media/medtronic.png',
+      src: '/media/medtronic.jpg',
       alt: 'Medtronic Logo',
       href: 'https://www.medtronic.com/'
     }
@@ -20,7 +20,7 @@ const experiences = [
     dates: 'June 2022 to August 2022',
     description: "Developed Azure DevOps pipelines to implement CI/CD practices, wrote Powershell scripts to queue automated tests with custom Test Manager, and wrote unit tests in C# to test new features in Xamarin.Forms application",
     image: {
-      src: '/media/medtronic.png',
+      src: '/media/medtronic.jpg',
       alt: 'Medtronic Logo',
       href: 'https://www.medtronic.com/'
     }
@@ -34,7 +34,7 @@ const experiences = [
     "These workshops' target was to give brief introductions to various programming languages, frameworks, and more. \n\n" +
     "Workshops included, Intro to: iOS Development, React, Node.js, Git, Linux, and Python",
     image: {
-      src: '/media/gdsc.png',
+      src: '/media/gdsc.jpg',
       alt: 'Google Developer Student Club Logo',
       href: 'https://asudsc.com/'
     }
@@ -47,7 +47,7 @@ const experiences = [
     description: "Coordinated with Arizona State University instructors to develop an interactive online course for an intro CS course teaching Java.\n\n" +
     "Developed in-depth video content to aid over 1,600 students' learning in specialized topics.",
     image: {
-      src: '/media/Edplus.png',
+      src: '/media/Edplus.jpg',
       alt: 'Edplus at Arizona State University Logo',
       href: 'https://edplus.asu.edu/'
     }
@@ -60,7 +60,7 @@ const experiences = [
     description: "Tailored individualized learning strategies for learning C/C++ to over 250 students.\n\n" +
     "Facilitated office hours and monitored discussions to answer student questions.",
     image: {
-      src: '/media/fulton.png',
+      src: '/media/fulton.jpg',
       alt: 'Ira A. Fulton School of Engineering at Arizona State University Logo',
       href: 'https://engineering.asu.edu/'
     }
