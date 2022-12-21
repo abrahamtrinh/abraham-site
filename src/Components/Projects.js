@@ -100,7 +100,7 @@ export default function Projects() {
                   <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                     {/*header*/}
                     <div className="flex flex-col items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                      <h3 className="text-3xl font-bold">
+                      <h3 className="text-lg lg:text-3xl font-bold">
                         {projects[currModal].title} at {projects[currModal].company}
                       </h3>
                       <p className="text-sm lg:text-lg font-normal text-left">
@@ -109,7 +109,7 @@ export default function Projects() {
                     </div>
                     {/*body*/}
                     <div className="relative p-6 flex-auto">
-                      <p className="my-4 text-slate-500 text-lg leading-relaxed">
+                      <p className="my-4 text-slate-500 text-sm lg:text-lg leading-relaxed">
                         <NewlineText text={projects[currModal].description}/>
                       </p>
                     </div>
