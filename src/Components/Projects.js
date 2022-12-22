@@ -101,7 +101,7 @@ export default function Projects() {
                     {/*header*/}
                     <div className="flex flex-col items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
                       <h3 className="text-lg lg:text-3xl font-bold">
-                        {projects[currModal].title}}
+                        {projects[currModal].title}
                       </h3>
                       <p className="text-sm lg:text-lg font-normal text-left">
                         <i>{projects[currModal].dates}</i>
