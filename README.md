@@ -12,7 +12,10 @@ Over the course of a few days I was able to produce this website!
 
 See the current version at [abrahamtrinh.com](http://abrahamtrinh.com)
 
-## Available Scripts
+## Install
+# Prereqs:
+- NodeJS
+- ReactJS
 
 In the project directory, you can run:
 
