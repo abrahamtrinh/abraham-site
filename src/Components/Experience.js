@@ -3,9 +3,9 @@ import React from "react";
 const experiences = [
   { 
     id: '0',
-    title: 'Software Engineer I',
+    title: 'Software Engineer II',
     company: 'Medtronic',
-    dates: 'Starting January 2023',
+    dates: 'Starting December 2024',
     description: '',
     image: {
       src: '/media/medtronic.jpg',
@@ -15,6 +15,18 @@ const experiences = [
   },
   { 
     id: '1',
+    title: 'Software Engineer I',
+    company: 'Medtronic',
+    dates: 'January 2023 to December 2024',
+    description: '',
+    image: {
+      src: '/media/medtronic.jpg',
+      alt: 'Medtronic Logo',
+      href: 'https://www.medtronic.com/'
+    }
+  },
+  { 
+    id: '2',
     title: 'Summer Engineering Intern',
     company: 'Medtronic',
     dates: 'June 2022 to August 2022',
@@ -26,7 +38,7 @@ const experiences = [
     }
   },
   { 
-    id: '2',
+    id: '3',
     title: 'Vice President',
     company: 'Google Developer Student Club (ASU)',
     dates: 'January 2022 to December 2022',
@@ -40,7 +52,7 @@ const experiences = [
     }
   },
   { 
-    id: '3',
+    id: '4',
     title: 'Computer Science Course Technical Assistant',
     company: 'EdPlus (ASU)',
     dates: 'March 2021 to December 2022',
@@ -53,7 +65,7 @@ const experiences = [
     }
   },
   { 
-    id: '4',
+    id: '5',
     title: 'Undergraduate Teaching Assistant',
     company: 'Ira A. Fulton Schools of Engineering (ASU)',
     dates: 'January 2021 to December 2021',
